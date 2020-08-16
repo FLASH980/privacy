@@ -1,5 +1,20 @@
 <privacy-component app-flag="false"></privacy-component>
 <div class="page-content-wrapper ">
+
+        <div class="container  no-padding">
+        <div class="secondary-sidebar-toggle bg-master-lighter padding-10 text-center hidden-md-up">
+            <a href="#" data-init="secondary-side-toggle" class="secondary-side-toggle"><i class="pg pg-more"></i></a>
+        </div>
+        <div class="secondary-side light" data-init="secondary-sidebar">
+            <ul class="main-menu">
+                <li class="active top-level">
+                    <back></back>
+                </li>
+            </ul>
+        </div>
+        <div class="inner-content p-t-15 p-r-20 p-l-20">
+            <div class="sidebar-border"></div>
+            <div class="content">
 <p class="bold text-uppercase p-t-5 p-l-10 p-r-10 ng-binding">
   Terms and Conditions of Use (SuppliesON Online)
 </p>
@@ -844,4 +859,9 @@
         This User Agreement is governed by and construed in accordance with the law of the Kingdom of Saudi Arabia and is fully and fully subject to the applicable legislation in the courts in the Kingdom of Saudi Arabia. This paragraph is an alternative to be used if this User Agreement is terminated for any reason.
     </p>
 
+    <div ncy-breadcrumb></div>
+    <ui-view/>
+</div>
+</div>
+</div>
 </div>
